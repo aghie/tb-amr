@@ -2,7 +2,8 @@
 #It will install it without support for CPU. If you use ti for training it will go quite slow
 pip install keras==2.0.9 
 pip install --upgrade tensorflow-gpu==1.4.0
-pip install pattern stop-words numpy scipy matplotlib prettytable sklearn python-dateutil stop-words penman h5py
+pip install pattern stop-words numpy scipy matplotlib prettytable sklearn python-dateutil stop-words h5py
+pip install penman==0.6.2
 
 if ! [ -d "./resources" ]
 	
